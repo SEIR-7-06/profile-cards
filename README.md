@@ -1,6 +1,6 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Flexbox / CSS Grid - Lab
-
 <img src="https://i.imgur.com/qsSi07H.png">
+
+# Flexbox / CSS Grid - Lab
 
 ## Intro
 
@@ -38,6 +38,19 @@ Use either an HTML, CSS, JS Repl, or create a project folder with `index.html` &
 - Use the _Digital Color Meter_ application that comes with the Mac to "pick" the colors from the screen.
 
 - Elements can be made to appear circular by using `border-radius: 50%;`.
+
+- As an image placeholder feel free to use picsum
+
+```html
+<img src="https://picsum.photos/200/200" alt="john" />
+```
+
+- To have access to the icons we are using font awesome which is already set up in the html. The star has been provided, but research the font awesome documentation on how to get the other icons.
+[Font Awesome](https://fontawesome.com/icons?d=gallery)
+```html
+<i class="fas fa-star"></i> <!-- star -->
+
+```
 
 ## Bonus
 
