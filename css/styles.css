@@ -1,4 +1,8 @@
 /* CSS RESET */
+:root {
+  --accent-color: limegreen;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,18 +12,25 @@
 
 .cards {
   background: #17703c;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
   padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-/* CARD *****************************/
+/* CARD ******************************************/
 .card {
   background: #fff;
-  border: 1px solid limegreen;
+  border: 1px solid var(--accent-color);
   position: relative;
   width: 281px;
+  margin: 0 50px 50px;
+  height: fit-content;
 }
 
+/* PROFILE ***************************************/
 .card-profile {
   display: flex;
   flex-direction: column;
@@ -35,11 +46,12 @@
 
 .card-img {
   border-radius: 110px;
-  border: 6px solid limegreen;
+  border: 6px solid var(--accent-color);
   margin-bottom: 20px;
   width: 130px;
 }
 
+/* REVIEWS ***************************************/
 .card-reviews {
   background: #eee;
   padding: 15px 0;
@@ -51,8 +63,44 @@
 .card-stars {
   display: flex;
   justify-content: center;
+  margin-bottom: 9px;
 }
 
 .card-star {
   list-style: none;
+  color: #ead012;
 }
+
+/* PRICING ***************************************/
+.card-pricing {
+  padding: 25px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-discount {
+  margin-bottom: 10px;
+}
+
+/* ACTIONS ***************************************/
+.card-actions {
+  display: flex;
+}
+
+.card-button {
+  width: 50%;
+  height: 65px;
+  border: none;
+  color: #fff;
+  font-size: 32px;
+}
+
+.card-button_phone {
+  background: var(--accent-color);
+}
+
+.card-button_chat {
+  background: #28a25b;
+}
+
