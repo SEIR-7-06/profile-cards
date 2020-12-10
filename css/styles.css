@@ -1,0 +1,58 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.cards {
+  background: #17703c;
+  height: 100vh;
+  padding: 20px;
+}
+
+/* CARD *****************************/
+.card {
+  background: #fff;
+  border: 1px solid limegreen;
+  position: relative;
+  width: 281px;
+}
+
+.card-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0 20px;
+}
+
+.card-status {
+  position: absolute;
+  right: 22px;
+  top: 17px;
+}
+
+.card-img {
+  border-radius: 110px;
+  border: 6px solid limegreen;
+  margin-bottom: 20px;
+  width: 130px;
+}
+
+.card-reviews {
+  background: #eee;
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-stars {
+  display: flex;
+  justify-content: center;
+}
+
+.card-star {
+  list-style: none;
+}
