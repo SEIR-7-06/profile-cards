@@ -1,10 +1,10 @@
 <img src="https://i.imgur.com/qsSi07H.png">
 
-# Flexbox / CSS Grid - Lab
+# Flexbox - Lab
 
 ## Intro
 
-Time for some practice laying out elements using Flexbox and CSS Grid!
+Time for some practice laying out elements using Flexbox!
 
 This lab is **not a deliverable**.
 
@@ -14,7 +14,7 @@ This lab is **not a deliverable**.
 
 - Choose either the vertical or horizontal "profile card" above to reproduce using HTML and CSS.
 
-- Use a combination of Flexbox and CSS Grid to layout the individual elements as close as possible - however, it does not have to be perfect!
+- Use Flexbox to layout the individual elements as close as possible - however, it does not have to be perfect!
 
 ## Set Up
 
